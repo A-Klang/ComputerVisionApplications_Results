@@ -1,5 +1,7 @@
 # Assignment 1: Results
 
+Repository: https://github.com/A-Klang/ComputerVisionApplications_Results
+
 MacBook Air (Apple Silicon), Python 3.14, OpenCV 5.1.0, NumPy 2.5.5. Laptop camera at 1280x720. Phone: iPhone streamed to the laptop with Continuity Camera. All values are means over batches of 100 frames unless stated otherwise.
 
 ## Time per frame and FPS
