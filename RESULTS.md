@@ -6,17 +6,20 @@ Setup: MacBook Air (Apple Silicon), macOS, Python 3.14, OpenCV 5.1.0, NumPy 2.5.
 
 ## 1. Time per frame and FPS
 
-Loop time = full iteration including `cap.read()`. Processing time = from after `cap.read()` to before `imshow`.
+Laptop camera (idx 1), 1280x720. Mean over 4-8 batches of 100 frames each (`results/14_fps_log_versions.txt`), startup batch excluded.
+Loop time = full iteration including `cap.read()`. Processing = detection + drawing. GUI = `imshow` (when display on) + `waitKey(1)`.
 
-| Version | Camera | Display | FPS | Loop time (ms) | Processing time (ms) | Evidence |
+| Version | Display | FPS | Loop time (ms) | Processing (ms) | GUI (ms) | Evidence |
 |---|---|---|---|---|---|---|
-| No detection | Laptop (idx 1) | yes | 30.0 | 33.4 (single frame) | | `results/02_fps_no_detection_laptop.png` |
-| No detection | iPhone Continuity (idx 0) | yes | 30.0 | 35.6 (single frame) | | `results/01_fps_no_detection_phone.png` |
-| No detection | | no | | | | |
-| Brightest (OpenCV) | Laptop (idx 1) | yes | 30.0 | | 2.9 (single frame) | `results/03_brightest_opencv_laptop.png` |
-| Brightest (OpenCV) | | no | | | | |
-| Brightest + reddest A and B | Laptop (idx 1) | yes | 30.1 | | 5.2 (single frame) | `results/04_reddest_agree_laptop.png` |
-| Reddest | | no | | | | |
+| No detection | on | 30.0 | 33.3 | 0.00 | 16.2 | `results/11_mode_none_laptop.png` |
+| No detection | off | 30.0 | 33.3 | 0.00 | 11.0 | log |
+| Brightest (OpenCV) | on | 30.0 | 33.3 | 1.93 | 15.0 | `results/12_mode_brightest_laptop.png` |
+| Brightest (OpenCV) | off | 30.0 | 33.3 | 2.22 | 11.0 | log |
+| Reddest (A and B) | on | 30.0 | 33.3 | 5.04 | 14.8 | `results/13_mode_reddest_laptop.png` |
+| Reddest (A and B) | off | 29.9 | 33.4 | 6.35 | 11.1 | log |
+| Brightest (Python loop) | on | 10.0 | ~100 | 78.2 (single frame) | | `results/08_search_loop_laptop.png` |
+
+Phone camera (iPhone via Continuity, idx 0), no detection, display on: 30.0 FPS (`results/01_fps_no_detection_phone.png`, single frame). Full phone run pending.
 
 ## 2. Brightest spot, three implementations (task 5)
 
@@ -58,3 +61,6 @@ Chosen definition and why:
 - Three implementations (task 5), 1280x720 blurred grayscale, search only: loop 73.0 ms, NumPy 0.058 ms, OpenCV 0.060 ms. The loop is about 1250x slower than compiled code. NumPy and OpenCV are equal within noise: both run one SIMD pass in C over a uint8 array, so the search is memory-bound. The gap is interpreted Python vs. compiled code, not NumPy vs. OpenCV.
 - Loop mode drops the display from 30 to 10 FPS: 78 ms processing spans more than two 33 ms camera frame intervals.
 - All three implementations mark the same pixel (first maximum in row-major order: strict `>` in the loop, `argmax`, `minMaxLoc`).
+- FPS is 30 for every version except the Python loop: the program is camera-bound. `cap.read()` blocks until the next frame (33.3 ms at 30 fps), so any work under about 33 ms only shortens the wait and does not change FPS. Processing and GUI time are what separate the versions.
+- Displaying costs about 4-5 ms per frame (`imshow`): GUI time is ~15-16 ms with display on and ~11 ms with display off. The remaining ~11 ms is `waitKey(1)` itself, which on macOS takes far longer than the 1 ms requested (event loop overhead; exact cause not verified).
+- Processing was slightly higher with display off (brightest 2.2 vs 1.9 ms, reddest 6.4 vs 5.0 ms). Possibly the CPU clocking down or moving to efficiency cores when it has less work per frame; not verified.
