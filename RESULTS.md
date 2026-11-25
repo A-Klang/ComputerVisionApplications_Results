@@ -22,9 +22,9 @@ Loop time = full iteration including `cap.read()`. Processing time = from after 
 
 | Implementation | Time per frame (ms) | Evidence |
 |---|---|---|
-| (a) Double for-loop | | |
-| (b) NumPy | | |
-| (c) OpenCV `minMaxLoc` | | |
+| (a) Double for-loop | 73.0 (mean of 26 x 10 frames, range 72.6-74.1); FPS drops to 10 | `results/08_search_loop_laptop.png`, `results/10_search_log_all_modes.txt` |
+| (b) NumPy `argmax` | 0.058 (mean of 3 x 100 frames, range 0.052-0.068) | `results/09_search_numpy_laptop.png`, `results/10_search_log_all_modes.txt` |
+| (c) OpenCV `minMaxLoc` | 0.060 (mean of 26 x 100 frames, range 0.054-0.067) | `results/06_search_opencv_laptop.png`, `results/07_search_log_opencv.txt`, `results/10_search_log_all_modes.txt` |
 
 ## 3. Latency (task 7)
 
@@ -55,3 +55,6 @@ Chosen definition and why:
 - FPS sits at the camera's 30 fps cap with no detection: the loop is camera-bound.
 - Brightest spot (grayscale, 11x11 Gaussian blur, `cv2.minMaxLoc`) lands on the lamp. Processing 2.9 ms, about 9% of the 33 ms frame budget, so FPS stays at 30.
 - The marker sits on the upper edge of the lamp glow, not its centre: the glow is saturated (many pixels at 255) and `minMaxLoc` returns the first maximum in row-major order, i.e. the top-most one.
+- Three implementations (task 5), 1280x720 blurred grayscale, search only: loop 73.0 ms, NumPy 0.058 ms, OpenCV 0.060 ms. The loop is about 1250x slower than compiled code. NumPy and OpenCV are equal within noise: both run one SIMD pass in C over a uint8 array, so the search is memory-bound. The gap is interpreted Python vs. compiled code, not NumPy vs. OpenCV.
+- Loop mode drops the display from 30 to 10 FPS: 78 ms processing spans more than two 33 ms camera frame intervals.
+- All three implementations mark the same pixel (first maximum in row-major order: strict `>` in the loop, `argmax`, `minMaxLoc`).
