@@ -15,7 +15,7 @@ Loop time = full iteration including `cap.read()`. Processing time = from after 
 | No detection | | no | | | | |
 | Brightest (OpenCV) | Laptop (idx 1) | yes | 30.0 | | 2.9 (single frame) | `results/03_brightest_opencv_laptop.png` |
 | Brightest (OpenCV) | | no | | | | |
-| Reddest | | yes | | | | |
+| Brightest + reddest A and B | Laptop (idx 1) | yes | 30.1 | | 5.2 (single frame) | `results/04_reddest_agree_laptop.png` |
 | Reddest | | no | | | | |
 
 ## 2. Brightest spot, three implementations (task 5)
@@ -39,11 +39,13 @@ Loop time = full iteration including `cap.read()`. Processing time = from after 
 
 ## 4. Reddest spot, two definitions (task 4 short answer)
 
-Definition A:
+Definition A: R - (G+B)/2 in BGR, on float32 after an 11x11 Gaussian blur.
 
-Definition B:
+Definition B: max a* in L*a*b* (`cv2.COLOR_BGR2LAB`, a* stored with +128 offset), same blur.
 
-Frame where they disagree: 
+Agreement case: a red container held up to the camera, A and B both land on it (`results/04_reddest_agree_laptop.png`).
+
+Frame where they disagree: `results/05_reddest_disagree_laptop.png`. A lands on the top edge of the yellowish lid next to the fingertips, where the lamp lights it brightly. B lands on the dark red body of the container. A is not normalised for brightness, so a brightly lit warm (orange/yellow, skin) surface scores higher than a darker but purer red. a* measures chromaticity largely separate from lightness L*, so B finds the surface that actually looks red.
 
 Chosen definition and why:
 
