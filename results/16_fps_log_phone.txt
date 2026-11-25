@@ -1,0 +1,22 @@
+# iPhone via Continuity Camera (idx 0). Averages over 100 frames per line. First line includes start-up, excluded.
+[none, display on] 21.7 FPS, loop 46.1 ms, proc 0.00 ms, display 21.20 ms
+[none, display on] 29.4 FPS, loop 34.0 ms, proc 0.00 ms, display 19.41 ms
+[none, display on] 30.0 FPS, loop 33.4 ms, proc 0.00 ms, display 18.93 ms
+[none, display on] 30.1 FPS, loop 33.3 ms, proc 0.00 ms, display 18.77 ms
+[none, display on] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 18.72 ms
+[none, display on] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 18.80 ms
+[none, display on] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 18.78 ms
+[none, display on] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 18.80 ms
+[none, display on] 29.7 FPS, loop 33.6 ms, proc 0.00 ms, display 18.89 ms
+[none, display on] 29.7 FPS, loop 33.7 ms, proc 0.00 ms, display 19.29 ms
+[none, display on] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 18.91 ms
+[none, display on] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 18.93 ms
+[none, display on] 30.1 FPS, loop 33.3 ms, proc 0.00 ms, display 18.88 ms
+[none, display on] 30.1 FPS, loop 33.2 ms, proc 0.00 ms, display 18.78 ms
+[none, display on] 29.8 FPS, loop 33.6 ms, proc 0.00 ms, display 19.12 ms
+[none, display on] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 19.17 ms
+[none, display off] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 10.98 ms
+[none, display off] 30.0 FPS, loop 33.4 ms, proc 0.00 ms, display 11.01 ms
+[none, display off] 29.7 FPS, loop 33.7 ms, proc 0.00 ms, display 11.02 ms
+[none, display off] 30.0 FPS, loop 33.3 ms, proc 0.00 ms, display 10.96 ms
+[none, display off] 30.0 FPS, loop 33.4 ms, proc 0.00 ms, display 10.97 ms

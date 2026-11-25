@@ -19,7 +19,12 @@ Loop time = full iteration including `cap.read()`. Processing = detection + draw
 | Reddest (A and B) | off | 29.9 | 33.4 | 6.35 | 11.1 | log |
 | Brightest (Python loop) | on | 10.0 | ~100 | 78.2 (single frame) | | `results/08_search_loop_laptop.png` |
 
-Phone camera (iPhone via Continuity, idx 0), no detection, display on: 30.0 FPS (`results/01_fps_no_detection_phone.png`, single frame). Full phone run pending.
+Phone camera (iPhone via Continuity Camera, idx 0), no detection (`results/16_fps_log_phone.txt`, `results/15_mode_none_phone.png`):
+
+| Version | Display | FPS | Loop time (ms) | Processing (ms) | GUI (ms) |
+|---|---|---|---|---|---|
+| No detection, phone | on | 29.9 | 33.4 | 0.00 | 19.0 |
+| No detection, phone | off | 29.9 | 33.4 | 0.00 | 11.0 |
 
 ## 2. Brightest spot, three implementations (task 5)
 
@@ -31,14 +36,19 @@ Phone camera (iPhone via Continuity, idx 0), no detection, display on: 30.0 FPS 
 
 ## 3. Latency (task 7)
 
-| Camera | Run | Timer on screen (ms) | Timer in displayed frame (ms) | Latency (ms) | Evidence |
+| Camera | Run | Timer on screen | Timer in displayed frame | Latency (ms) | Evidence |
 |---|---|---|---|---|---|
-| Laptop | 1 | | | | |
-| Laptop | 2 | | | | |
-| Laptop | 3 | | | | |
-| Phone | 1 | | | | |
-| Phone | 2 | | | | |
-| Phone | 3 | | | | |
+| Laptop | 1 | 2:43.41 | 2:43.31 | 100 | `results/18_latency_laptop_run1.png` |
+| Laptop | 2 | 2:55.18 | 2:55.05 | 130 | `results/18_latency_laptop_run2.png` |
+| Laptop | 3 | 3:05.82 | 3:05.72 | 100 | `results/18_latency_laptop_run3.png` |
+| Laptop | 4 | 3:18.15 | 3:18.01 | 140 | `results/18_latency_laptop_run4.png` |
+| Laptop | mean | | | 118 | |
+| Phone | 1 | 5.31 s | 5.28 s | 30 | `results/17_latency_phone_run1.png` |
+| Phone | 2 | 20.37 s | 20.25 s | 120 | `results/17_latency_phone_run2.png` |
+| Phone | 3 | 28.35 s | 28.17 s | 180 | `results/17_latency_phone_run3.png` |
+| Phone | 4 | 35.90 s | 35.76 s | 140 | `results/17_latency_phone_run4.png` |
+| Phone | 5 | 50.84 s | 50.67 s | 170 | `results/17_latency_phone_run5.png` |
+| Phone | mean | | | 128 | |
 
 ## 4. Reddest spot, two definitions (task 4 short answer)
 
@@ -64,3 +74,6 @@ Chosen definition and why:
 - FPS is 30 for every version except the Python loop: the program is camera-bound. `cap.read()` blocks until the next frame (33.3 ms at 30 fps), so any work under about 33 ms only shortens the wait and does not change FPS. Processing and GUI time are what separate the versions.
 - Displaying costs about 4-5 ms per frame (`imshow`): GUI time is ~15-16 ms with display on and ~11 ms with display off. The remaining ~11 ms is `waitKey(1)` itself, which on macOS takes far longer than the 1 ms requested (event loop overhead; exact cause not verified).
 - Processing was slightly higher with display off (brightest 2.2 vs 1.9 ms, reddest 6.4 vs 5.0 ms). Possibly the CPU clocking down or moving to efficiency cores when it has less work per frame; not verified.
+- Phone camera also delivers 30 fps, so FPS is the same as the laptop camera. Display costs more with the phone (about 8 ms vs 5 ms for imshow), which suggests a larger frame; frame size for idx 0 not yet checked.
+- Phone latency (Continuity Camera, no detection, display on): 30-180 ms over 5 runs, mean 128 ms. The macOS stopwatch shows 10 ms steps and the filmed digits are often double-exposed (two values overlaid), so each reading is uncertain by roughly +-20 ms. Run 1 (30 ms) is likely a low outlier.
+- Laptop latency (built-in camera filming the screen via a mirror, no detection, display on): 100-140 ms over 4 runs, mean 118 ms. Filmed digits are mirrored and small, run 2 reading uncertain (2:55.02-2:55.05). Laptop and phone latency are similar (~120-130 ms); the camera pipeline and display dominate, not the processing.
