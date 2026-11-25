@@ -50,4 +50,4 @@ I chose B. A grows with brightness, so a brightly lit warm surface can score hig
 
 ## Raw logs and screenshots
 
-All in `results/`: timing logs (`07`, `10`, `14`, `16`), detection screenshots (`03`–`06`, `08`, `09`, `11`–`13`, `15`) and latency screenshots (`17`, `18`).
+All in `Assignment1/results/`: timing logs (`07`, `10`, `14`, `16`), detection screenshots (`03`–`06`, `08`, `09`, `11`–`13`, `15`) and latency screenshots (`17`, `18`).
