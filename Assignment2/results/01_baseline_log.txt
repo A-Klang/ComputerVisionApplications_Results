@@ -1,0 +1,141 @@
+# Baseline: 640-wide frames, Canny 50/150, RANSAC N=200, t=2.0 px, all edge points. Scene: laptop sleeve edge, dim room.
+capture 7.8 ms  canny 0.8 ms  ransac 3.9 ms  points 5783  inliers 197
+angle diff 0.03 deg  rms ransac 1.02. rms ls 0.98
+capture 7.7 ms  canny 0.8 ms  ransac 3.9 ms  points 5964  inliers 498
+angle diff 0.08 deg  rms ransac 1.01. rms ls 0.96
+capture 8.3 ms  canny 1.3 ms  ransac 3.8 ms  points 5499  inliers 442
+angle diff 0.11 deg  rms ransac 1.00. rms ls 0.97
+capture 6.5 ms  canny 0.8 ms  ransac 4.0 ms  points 5771  inliers 413
+angle diff 0.12 deg  rms ransac 1.03. rms ls 0.97
+capture 7.3 ms  canny 0.8 ms  ransac 3.9 ms  points 5671  inliers 456
+angle diff 0.08 deg  rms ransac 1.10. rms ls 0.96
+capture 25.4 ms  canny 2.1 ms  ransac 3.9 ms  points 5799  inliers 355
+angle diff 0.03 deg  rms ransac 1.04. rms ls 0.99
+capture 20.6 ms  canny 0.8 ms  ransac 3.9 ms  points 5783  inliers 439
+angle diff 0.02 deg  rms ransac 0.94. rms ls 0.87
+capture 7.3 ms  canny 0.8 ms  ransac 4.2 ms  points 6164  inliers 231
+angle diff 0.12 deg  rms ransac 1.06. rms ls 1.01
+capture 6.7 ms  canny 1.0 ms  ransac 4.1 ms  points 5863  inliers 434
+angle diff 0.10 deg  rms ransac 1.21. rms ls 0.93
+capture 7.0 ms  canny 0.7 ms  ransac 4.1 ms  points 6293  inliers 251
+angle diff 0.10 deg  rms ransac 0.76. rms ls 0.75
+capture 7.6 ms  canny 0.7 ms  ransac 3.9 ms  points 5784  inliers 191
+angle diff 0.00 deg  rms ransac 1.03. rms ls 0.99
+capture 7.9 ms  canny 0.8 ms  ransac 4.0 ms  points 5771  inliers 191
+angle diff 0.03 deg  rms ransac 0.99. rms ls 0.97
+capture 8.0 ms  canny 0.8 ms  ransac 4.1 ms  points 6184  inliers 371
+angle diff 0.04 deg  rms ransac 1.06. rms ls 1.03
+capture 7.1 ms  canny 1.0 ms  ransac 4.0 ms  points 6001  inliers 415
+angle diff 0.15 deg  rms ransac 1.07. rms ls 1.00
+capture 7.0 ms  canny 0.8 ms  ransac 3.7 ms  points 5120  inliers 178
+angle diff 0.00 deg  rms ransac 1.11. rms ls 1.09
+capture 8.1 ms  canny 0.8 ms  ransac 4.0 ms  points 5773  inliers 241
+angle diff 0.14 deg  rms ransac 1.11. rms ls 0.96
+capture 7.5 ms  canny 0.8 ms  ransac 3.8 ms  points 5720  inliers 299
+angle diff 0.04 deg  rms ransac 1.04. rms ls 1.03
+capture 7.6 ms  canny 0.8 ms  ransac 4.1 ms  points 5896  inliers 392
+angle diff 0.20 deg  rms ransac 1.07. rms ls 0.85
+capture 7.6 ms  canny 0.8 ms  ransac 3.9 ms  points 5650  inliers 220
+angle diff 0.03 deg  rms ransac 1.09. rms ls 1.02
+capture 7.7 ms  canny 0.8 ms  ransac 3.9 ms  points 5650  inliers 386
+angle diff 0.04 deg  rms ransac 1.00. rms ls 0.95
+capture 7.1 ms  canny 0.8 ms  ransac 3.9 ms  points 5739  inliers 350
+angle diff 0.06 deg  rms ransac 0.99. rms ls 0.99
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 5685  inliers 319
+angle diff 0.06 deg  rms ransac 1.18. rms ls 1.12
+capture 7.3 ms  canny 0.8 ms  ransac 3.9 ms  points 5709  inliers 158
+angle diff 0.05 deg  rms ransac 1.02. rms ls 1.00
+capture 8.3 ms  canny 0.8 ms  ransac 4.1 ms  points 6538  inliers 425
+angle diff 0.08 deg  rms ransac 1.04. rms ls 0.96
+capture 7.1 ms  canny 0.8 ms  ransac 4.1 ms  points 6065  inliers 333
+angle diff 0.10 deg  rms ransac 1.03. rms ls 1.00
+capture 7.2 ms  canny 0.8 ms  ransac 4.1 ms  points 6329  inliers 403
+angle diff 0.04 deg  rms ransac 1.08. rms ls 1.07
+capture 7.6 ms  canny 0.8 ms  ransac 3.9 ms  points 5834  inliers 179
+angle diff 0.09 deg  rms ransac 0.95. rms ls 0.91
+capture 7.7 ms  canny 0.8 ms  ransac 4.0 ms  points 6119  inliers 316
+angle diff 0.03 deg  rms ransac 1.10. rms ls 1.08
+capture 7.5 ms  canny 0.8 ms  ransac 4.1 ms  points 6088  inliers 219
+angle diff 0.17 deg  rms ransac 0.99. rms ls 0.97
+capture 7.2 ms  canny 0.8 ms  ransac 4.0 ms  points 6224  inliers 173
+angle diff 0.08 deg  rms ransac 0.90. rms ls 0.86
+capture 7.3 ms  canny 0.8 ms  ransac 3.9 ms  points 5863  inliers 299
+angle diff 0.17 deg  rms ransac 0.87. rms ls 0.79
+capture 7.7 ms  canny 0.8 ms  ransac 4.1 ms  points 6232  inliers 257
+angle diff 0.08 deg  rms ransac 0.83. rms ls 0.75
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 6072  inliers 234
+angle diff 0.13 deg  rms ransac 1.05. rms ls 0.96
+capture 7.3 ms  canny 0.8 ms  ransac 3.9 ms  points 5970  inliers 410
+angle diff 0.06 deg  rms ransac 1.02. rms ls 0.99
+capture 7.5 ms  canny 0.8 ms  ransac 4.1 ms  points 6136  inliers 446
+angle diff 0.24 deg  rms ransac 0.99. rms ls 0.79
+capture 7.4 ms  canny 0.7 ms  ransac 3.8 ms  points 5725  inliers 257
+angle diff 0.08 deg  rms ransac 1.04. rms ls 1.01
+capture 7.7 ms  canny 0.8 ms  ransac 3.9 ms  points 5960  inliers 407
+angle diff 0.04 deg  rms ransac 1.07. rms ls 0.99
+capture 7.4 ms  canny 0.8 ms  ransac 4.0 ms  points 5939  inliers 480
+angle diff 0.15 deg  rms ransac 0.97. rms ls 0.88
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 5937  inliers 396
+angle diff 0.06 deg  rms ransac 1.06. rms ls 1.03
+capture 7.3 ms  canny 0.8 ms  ransac 4.0 ms  points 6214  inliers 196
+angle diff 0.10 deg  rms ransac 1.03. rms ls 0.90
+capture 7.6 ms  canny 0.7 ms  ransac 3.9 ms  points 5958  inliers 316
+angle diff 0.04 deg  rms ransac 1.11. rms ls 0.98
+capture 8.0 ms  canny 0.8 ms  ransac 3.9 ms  points 5985  inliers 362
+angle diff 0.07 deg  rms ransac 0.95. rms ls 0.93
+capture 7.6 ms  canny 0.8 ms  ransac 4.1 ms  points 6394  inliers 319
+angle diff 0.00 deg  rms ransac 0.97. rms ls 0.81
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 6247  inliers 355
+angle diff 0.03 deg  rms ransac 0.99. rms ls 0.93
+capture 7.5 ms  canny 0.7 ms  ransac 4.1 ms  points 6317  inliers 458
+angle diff 0.09 deg  rms ransac 1.03. rms ls 0.99
+capture 7.2 ms  canny 0.8 ms  ransac 4.1 ms  points 6317  inliers 433
+angle diff 0.00 deg  rms ransac 0.95. rms ls 0.81
+capture 7.6 ms  canny 0.8 ms  ransac 4.0 ms  points 6392  inliers 253
+angle diff 0.00 deg  rms ransac 1.10. rms ls 1.06
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 6099  inliers 301
+angle diff 0.02 deg  rms ransac 1.20. rms ls 1.07
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 6300  inliers 259
+angle diff 0.02 deg  rms ransac 0.98. rms ls 0.98
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 6198  inliers 367
+angle diff 0.07 deg  rms ransac 1.00. rms ls 0.98
+capture 6.9 ms  canny 0.8 ms  ransac 4.2 ms  points 6278  inliers 432
+angle diff 0.11 deg  rms ransac 0.92. rms ls 0.86
+capture 7.9 ms  canny 0.8 ms  ransac 4.0 ms  points 6180  inliers 216
+angle diff 0.02 deg  rms ransac 0.98. rms ls 0.93
+capture 7.7 ms  canny 0.8 ms  ransac 4.0 ms  points 5959  inliers 348
+angle diff 0.00 deg  rms ransac 1.01. rms ls 1.01
+capture 7.2 ms  canny 0.8 ms  ransac 4.1 ms  points 6137  inliers 384
+angle diff 0.00 deg  rms ransac 1.00. rms ls 0.99
+capture 7.0 ms  canny 0.8 ms  ransac 4.0 ms  points 6346  inliers 254
+angle diff 0.07 deg  rms ransac 1.13. rms ls 1.08
+capture 7.5 ms  canny 0.8 ms  ransac 4.1 ms  points 6269  inliers 237
+angle diff 0.08 deg  rms ransac 1.08. rms ls 1.00
+capture 7.2 ms  canny 0.8 ms  ransac 4.1 ms  points 6089  inliers 334
+angle diff 0.09 deg  rms ransac 0.90. rms ls 0.87
+capture 7.2 ms  canny 1.0 ms  ransac 4.0 ms  points 5684  inliers 257
+angle diff 0.09 deg  rms ransac 1.03. rms ls 0.89
+capture 6.5 ms  canny 0.9 ms  ransac 4.1 ms  points 6136  inliers 215
+angle diff 0.03 deg  rms ransac 0.97. rms ls 0.97
+capture 6.8 ms  canny 0.9 ms  ransac 4.0 ms  points 6047  inliers 331
+angle diff 0.04 deg  rms ransac 0.96. rms ls 0.95
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 6066  inliers 325
+angle diff 0.04 deg  rms ransac 1.07. rms ls 1.04
+capture 7.4 ms  canny 0.7 ms  ransac 4.2 ms  points 6266  inliers 414
+angle diff 0.08 deg  rms ransac 1.08. rms ls 1.04
+capture 7.3 ms  canny 0.8 ms  ransac 4.2 ms  points 6326  inliers 436
+angle diff 0.00 deg  rms ransac 0.99. rms ls 0.98
+capture 7.1 ms  canny 0.8 ms  ransac 3.9 ms  points 5832  inliers 362
+angle diff 0.06 deg  rms ransac 1.12. rms ls 1.08
+capture 7.5 ms  canny 0.8 ms  ransac 4.0 ms  points 5907  inliers 301
+angle diff 0.10 deg  rms ransac 1.17. rms ls 1.05
+capture 7.4 ms  canny 0.8 ms  ransac 4.0 ms  points 6219  inliers 321
+angle diff 0.19 deg  rms ransac 1.18. rms ls 1.04
+capture 7.6 ms  canny 0.8 ms  ransac 4.1 ms  points 6091  inliers 282
+angle diff 0.03 deg  rms ransac 1.02. rms ls 1.01
+capture 7.1 ms  canny 0.7 ms  ransac 4.0 ms  points 6205  inliers 307
+angle diff 0.08 deg  rms ransac 0.91. rms ls 0.88
+capture 7.4 ms  canny 0.8 ms  ransac 3.9 ms  points 5907  inliers 327
+angle diff 0.02 deg  rms ransac 1.04. rms ls 0.96
+capture 7.5 ms  canny 0.8 ms  ransac 4.1 ms  points 6143  inliers 386
+angle diff 0.05 deg  rms ransac 1.08. rms ls 0.95

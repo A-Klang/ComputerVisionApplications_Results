@@ -1,0 +1,221 @@
+# s=0.5, Canny 150/300, RANSAC N=1000, t=2.0 px. Scene: sleeve propped, bright lighting (same as 06).
+capture 2.3 ms  canny 0.3 ms  ransac 14.3 ms  points 2684  inliers 289
+angle diff 0.07 deg  rms ransac 0.92. rms ls 0.90  fps 29.2 pro  roc_fps 73  w 1280
+capture 1.8 ms  canny 0.3 ms  ransac 13.3 ms  points 2541  inliers 322
+angle diff 0.11 deg  rms ransac 0.88. rms ls 0.86  fps 29.3 pro  roc_fps 74  w 1280
+capture 3.0 ms  canny 0.4 ms  ransac 13.2 ms  points 2531  inliers 237
+angle diff 0.23 deg  rms ransac 1.03. rms ls 0.97  fps 29.4 pro  roc_fps 74  w 1280
+capture 3.5 ms  canny 0.4 ms  ransac 13.2 ms  points 2509  inliers 253
+angle diff 0.04 deg  rms ransac 0.96. rms ls 0.94  fps 29.5 pro  roc_fps 74  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.2 ms  points 2495  inliers 250
+angle diff 0.12 deg  rms ransac 0.85. rms ls 0.81  fps 29.5 pro  roc_fps 74  w 1280
+capture 3.3 ms  canny 0.3 ms  ransac 13.3 ms  points 2534  inliers 310
+angle diff 0.13 deg  rms ransac 1.02. rms ls 0.98  fps 29.6 pro  roc_fps 73  w 1280
+capture 3.2 ms  canny 0.3 ms  ransac 13.4 ms  points 2541  inliers 269
+angle diff 0.07 deg  rms ransac 1.00. rms ls 0.98  fps 29.6 pro  roc_fps 70  w 1280
+capture 3.6 ms  canny 0.4 ms  ransac 13.9 ms  points 2608  inliers 271
+angle diff 0.10 deg  rms ransac 0.89. rms ls 0.86  fps 29.7 pro  roc_fps 74  w 1280
+capture 2.2 ms  canny 0.3 ms  ransac 13.2 ms  points 2417  inliers 233
+angle diff 0.28 deg  rms ransac 0.95. rms ls 0.88  fps 29.7 pro  roc_fps 71  w 1280
+capture 3.4 ms  canny 0.5 ms  ransac 13.5 ms  points 2449  inliers 230
+angle diff 0.43 deg  rms ransac 1.20. rms ls 1.03  fps 29.7 pro  roc_fps 72  w 1280
+capture 2.7 ms  canny 0.3 ms  ransac 13.5 ms  points 2441  inliers 255
+angle diff 0.00 deg  rms ransac 1.02. rms ls 1.00  fps 29.8 pro  roc_fps 72  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.6 ms  points 2523  inliers 264
+angle diff 0.30 deg  rms ransac 1.17. rms ls 1.14  fps 29.8 pro  roc_fps 72  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.5 ms  points 2482  inliers 228
+angle diff 0.34 deg  rms ransac 1.14. rms ls 1.01  fps 29.8 pro  roc_fps 74  w 1280
+capture 2.9 ms  canny 0.3 ms  ransac 13.3 ms  points 2473  inliers 263
+angle diff 0.32 deg  rms ransac 0.95. rms ls 0.87  fps 29.8 pro  roc_fps 71  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.7 ms  points 2522  inliers 236
+angle diff 0.06 deg  rms ransac 0.85. rms ls 0.80  fps 29.8 pro  roc_fps 73  w 1280
+capture 3.2 ms  canny 0.3 ms  ransac 13.5 ms  points 2474  inliers 216
+angle diff 0.42 deg  rms ransac 1.16. rms ls 1.01  fps 29.8 pro  roc_fps 73  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.4 ms  points 2505  inliers 254
+angle diff 0.22 deg  rms ransac 1.02. rms ls 0.98  fps 29.9 pro  roc_fps 73  w 1280
+capture 2.9 ms  canny 0.4 ms  ransac 13.3 ms  points 2559  inliers 265
+angle diff 0.71 deg  rms ransac 1.23. rms ls 0.90  fps 29.9 pro  roc_fps 73  w 1280
+capture 3.7 ms  canny 0.4 ms  ransac 13.3 ms  points 2483  inliers 225
+angle diff 0.08 deg  rms ransac 1.03. rms ls 1.00  fps 29.9 pro  roc_fps 71  w 1280
+capture 3.2 ms  canny 0.3 ms  ransac 13.7 ms  points 2530  inliers 273
+angle diff 0.10 deg  rms ransac 0.93. rms ls 0.92  fps 29.9 pro  roc_fps 70  w 1280
+capture 2.5 ms  canny 0.4 ms  ransac 13.9 ms  points 2527  inliers 256
+angle diff 0.09 deg  rms ransac 0.93. rms ls 0.87  fps 29.9 pro  roc_fps 73  w 1280
+capture 2.3 ms  canny 0.3 ms  ransac 13.4 ms  points 2465  inliers 314
+angle diff 0.36 deg  rms ransac 1.21. rms ls 1.09  fps 29.9 pro  roc_fps 73  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.4 ms  points 2512  inliers 258
+angle diff 0.11 deg  rms ransac 0.87. rms ls 0.84  fps 29.9 pro  roc_fps 72  w 1280
+capture 3.6 ms  canny 0.4 ms  ransac 13.6 ms  points 2533  inliers 320
+angle diff 0.34 deg  rms ransac 1.18. rms ls 1.14  fps 30.0 pro  roc_fps 73  w 1280
+capture 2.5 ms  canny 0.3 ms  ransac 13.3 ms  points 2439  inliers 228
+angle diff 0.07 deg  rms ransac 0.92. rms ls 0.90  fps 29.9 pro  roc_fps 72  w 1280
+capture 3.4 ms  canny 0.3 ms  ransac 13.6 ms  points 2571  inliers 321
+angle diff 0.05 deg  rms ransac 0.92. rms ls 0.92  fps 29.9 pro  roc_fps 70  w 1280
+capture 3.3 ms  canny 0.3 ms  ransac 14.0 ms  points 2615  inliers 332
+angle diff 0.23 deg  rms ransac 0.96. rms ls 0.92  fps 30.0 pro  roc_fps 72  w 1280
+capture 2.1 ms  canny 0.4 ms  ransac 13.5 ms  points 2496  inliers 246
+angle diff 0.11 deg  rms ransac 1.21. rms ls 1.15  fps 30.0 pro  roc_fps 71  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.8 ms  points 2682  inliers 269
+angle diff 0.05 deg  rms ransac 0.87. rms ls 0.87  fps 30.0 pro  roc_fps 72  w 1280
+capture 2.6 ms  canny 0.3 ms  ransac 13.5 ms  points 2583  inliers 326
+angle diff 0.00 deg  rms ransac 0.89. rms ls 0.87  fps 30.0 pro  roc_fps 74  w 1280
+capture 3.6 ms  canny 0.4 ms  ransac 13.1 ms  points 2476  inliers 262
+angle diff 0.04 deg  rms ransac 1.27. rms ls 1.26  fps 30.0 pro  roc_fps 71  w 1280
+capture 3.4 ms  canny 0.3 ms  ransac 13.9 ms  points 2703  inliers 293
+angle diff 0.25 deg  rms ransac 0.99. rms ls 0.88  fps 30.0 pro  roc_fps 74  w 1280
+capture 2.4 ms  canny 0.4 ms  ransac 13.1 ms  points 2455  inliers 223
+angle diff 0.05 deg  rms ransac 0.87. rms ls 0.86  fps 30.0 pro  roc_fps 72  w 1280
+capture 4.0 ms  canny 0.5 ms  ransac 13.4 ms  points 2576  inliers 313
+angle diff 0.49 deg  rms ransac 1.22. rms ls 1.10  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.1 ms  canny 0.5 ms  ransac 13.1 ms  points 2388  inliers 239
+angle diff 0.31 deg  rms ransac 0.96. rms ls 0.84  fps 30.0 pro  roc_fps 75  w 1280
+capture 3.2 ms  canny 0.3 ms  ransac 13.1 ms  points 2406  inliers 220
+angle diff 0.08 deg  rms ransac 0.94. rms ls 0.92  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.3 ms  canny 0.3 ms  ransac 13.3 ms  points 2548  inliers 256
+angle diff 0.00 deg  rms ransac 1.22. rms ls 1.22  fps 30.0 pro  roc_fps 72  w 1280
+capture 2.9 ms  canny 0.3 ms  ransac 13.5 ms  points 2535  inliers 250
+angle diff 0.03 deg  rms ransac 0.97. rms ls 0.90  fps 30.0 pro  roc_fps 71  w 1280
+capture 3.5 ms  canny 0.3 ms  ransac 13.8 ms  points 2577  inliers 266
+angle diff 0.00 deg  rms ransac 0.79. rms ls 0.79  fps 30.0 pro  roc_fps 70  w 1280
+capture 2.7 ms  canny 0.3 ms  ransac 13.9 ms  points 2620  inliers 256
+angle diff 0.08 deg  rms ransac 1.23. rms ls 1.07  fps 30.0 pro  roc_fps 72  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.6 ms  points 2561  inliers 273
+angle diff 0.04 deg  rms ransac 0.86. rms ls 0.79  fps 30.0 pro  roc_fps 74  w 1280
+capture 2.7 ms  canny 0.3 ms  ransac 13.3 ms  points 2418  inliers 241
+angle diff 0.07 deg  rms ransac 0.99. rms ls 0.98  fps 30.0 pro  roc_fps 74  w 1280
+capture 2.9 ms  canny 0.3 ms  ransac 13.2 ms  points 2438  inliers 264
+angle diff 0.10 deg  rms ransac 0.94. rms ls 0.93  fps 30.0 pro  roc_fps 72  w 1280
+capture 3.1 ms  canny 0.4 ms  ransac 13.5 ms  points 2618  inliers 260
+angle diff 0.18 deg  rms ransac 1.08. rms ls 1.05  fps 30.0 pro  roc_fps 73  w 1280
+capture 2.9 ms  canny 0.3 ms  ransac 13.3 ms  points 2533  inliers 279
+angle diff 0.05 deg  rms ransac 0.86. rms ls 0.85  fps 30.0 pro  roc_fps 72  w 1280
+capture 3.2 ms  canny 0.3 ms  ransac 13.5 ms  points 2643  inliers 256
+angle diff 0.15 deg  rms ransac 0.99. rms ls 0.93  fps 30.0 pro  roc_fps 73  w 1280
+capture 2.6 ms  canny 0.3 ms  ransac 13.3 ms  points 2504  inliers 238
+angle diff 0.20 deg  rms ransac 1.02. rms ls 1.00  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.2 ms  canny 0.3 ms  ransac 13.4 ms  points 2469  inliers 259
+angle diff 0.14 deg  rms ransac 1.19. rms ls 1.16  fps 30.0 pro  roc_fps 71  w 1280
+capture 3.2 ms  canny 0.4 ms  ransac 13.8 ms  points 2609  inliers 284
+angle diff 0.03 deg  rms ransac 0.93. rms ls 0.91  fps 30.0 pro  roc_fps 72  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.6 ms  points 2609  inliers 257
+angle diff 0.16 deg  rms ransac 1.17. rms ls 1.07  fps 30.0 pro  roc_fps 71  w 1280
+capture 2.7 ms  canny 0.3 ms  ransac 13.8 ms  points 2677  inliers 263
+angle diff 0.07 deg  rms ransac 0.91. rms ls 0.90  fps 30.0 pro  roc_fps 74  w 1280
+capture 2.6 ms  canny 0.3 ms  ransac 13.2 ms  points 2474  inliers 249
+angle diff 0.16 deg  rms ransac 0.89. rms ls 0.84  fps 30.0 pro  roc_fps 74  w 1280
+capture 3.0 ms  canny 0.4 ms  ransac 13.2 ms  points 2536  inliers 226
+angle diff 0.12 deg  rms ransac 0.98. rms ls 0.92  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.3 ms  points 2460  inliers 247
+angle diff 0.16 deg  rms ransac 0.99. rms ls 0.95  fps 30.0 pro  roc_fps 74  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.2 ms  points 2372  inliers 253
+angle diff 0.00 deg  rms ransac 0.90. rms ls 0.90  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.9 ms  canny 0.4 ms  ransac 13.4 ms  points 2465  inliers 249
+angle diff 0.02 deg  rms ransac 1.32. rms ls 1.11  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.3 ms  points 2572  inliers 254
+angle diff 0.00 deg  rms ransac 1.31. rms ls 1.12  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.4 ms  points 2557  inliers 255
+angle diff 0.02 deg  rms ransac 0.90. rms ls 0.86  fps 30.0 pro  roc_fps 71  w 1280
+capture 2.8 ms  canny 0.3 ms  ransac 13.7 ms  points 2583  inliers 254
+angle diff 0.03 deg  rms ransac 0.82. rms ls 0.80  fps 30.0 pro  roc_fps 73  w 1280
+capture 2.9 ms  canny 0.3 ms  ransac 13.4 ms  points 2506  inliers 304
+angle diff 0.05 deg  rms ransac 0.88. rms ls 0.79  fps 30.0 pro  roc_fps 76  w 1280
+capture 3.3 ms  canny 0.3 ms  ransac 12.9 ms  points 2316  inliers 187
+angle diff 0.05 deg  rms ransac 0.99. rms ls 0.96  fps 30.0 pro  roc_fps 75  w 1280
+capture 3.4 ms  canny 0.3 ms  ransac 13.0 ms  points 2433  inliers 251
+angle diff 0.65 deg  rms ransac 1.19. rms ls 1.05  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.6 ms  canny 0.4 ms  ransac 13.3 ms  points 2459  inliers 246
+angle diff 0.49 deg  rms ransac 0.93. rms ls 0.80  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.8 ms  canny 0.4 ms  ransac 13.3 ms  points 2506  inliers 203
+angle diff 0.19 deg  rms ransac 0.85. rms ls 0.74  fps 30.0 pro  roc_fps 74  w 1280
+capture 3.3 ms  canny 0.3 ms  ransac 13.1 ms  points 2302  inliers 187
+angle diff 0.09 deg  rms ransac 1.21. rms ls 1.20  fps 30.0 pro  roc_fps 72  w 1280
+capture 3.4 ms  canny 0.4 ms  ransac 13.6 ms  points 2655  inliers 275
+angle diff 0.07 deg  rms ransac 0.91. rms ls 0.90  fps 30.0 pro  roc_fps 73  w 1280
+capture 2.8 ms  canny 0.3 ms  ransac 13.3 ms  points 2547  inliers 244
+angle diff 0.38 deg  rms ransac 1.10. rms ls 1.02  fps 30.0 pro  roc_fps 74  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.2 ms  points 2492  inliers 261
+angle diff 0.07 deg  rms ransac 1.22. rms ls 1.06  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.4 ms  points 2603  inliers 269
+angle diff 0.13 deg  rms ransac 0.90. rms ls 0.88  fps 30.0 pro  roc_fps 73  w 1280
+capture 2.9 ms  canny 0.3 ms  ransac 13.3 ms  points 2535  inliers 251
+angle diff 0.03 deg  rms ransac 1.10. rms ls 1.05  fps 30.0 pro  roc_fps 72  w 1280
+capture 3.4 ms  canny 0.3 ms  ransac 13.5 ms  points 2584  inliers 276
+angle diff 0.03 deg  rms ransac 1.22. rms ls 1.22  fps 29.9 pro  roc_fps 63  w 1280
+capture 4.7 ms  canny 0.6 ms  ransac 15.4 ms  points 2598  inliers 255
+angle diff 0.07 deg  rms ransac 1.20. rms ls 1.04  fps 28.4 pro  roc_fps 73  w 1280
+capture 32.2 ms  canny 0.4 ms  ransac 13.4 ms  points 2596  inliers 260
+angle diff 0.03 deg  rms ransac 0.96. rms ls 0.95  fps 28.6 pro  roc_fps 73  w 1280
+capture 2.8 ms  canny 0.5 ms  ransac 13.1 ms  points 2453  inliers 253
+angle diff 0.24 deg  rms ransac 0.99. rms ls 0.95  fps 28.7 pro  roc_fps 74  w 1280
+capture 3.3 ms  canny 0.3 ms  ransac 13.2 ms  points 2446  inliers 251
+angle diff 0.14 deg  rms ransac 0.82. rms ls 0.79  fps 28.9 pro  roc_fps 73  w 1280
+capture 3.3 ms  canny 0.3 ms  ransac 13.3 ms  points 2542  inliers 302
+angle diff 0.19 deg  rms ransac 1.00. rms ls 0.94  fps 29.0 pro  roc_fps 75  w 1280
+capture 3.3 ms  canny 0.3 ms  ransac 13.0 ms  points 2451  inliers 253
+angle diff 0.20 deg  rms ransac 0.93. rms ls 0.89  fps 29.1 pro  roc_fps 74  w 1280
+capture 3.2 ms  canny 0.4 ms  ransac 13.2 ms  points 2518  inliers 236
+angle diff 0.14 deg  rms ransac 0.90. rms ls 0.88  fps 29.2 pro  roc_fps 74  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.2 ms  points 2483  inliers 245
+angle diff 0.06 deg  rms ransac 0.59. rms ls 0.59  fps 29.3 pro  roc_fps 74  w 1280
+capture 3.2 ms  canny 0.3 ms  ransac 13.2 ms  points 2478  inliers 202
+angle diff 0.41 deg  rms ransac 1.20. rms ls 1.09  fps 29.3 pro  roc_fps 74  w 1280
+capture 3.2 ms  canny 0.3 ms  ransac 13.2 ms  points 2543  inliers 272
+angle diff 0.04 deg  rms ransac 1.30. rms ls 1.12  fps 29.4 pro  roc_fps 73  w 1280
+capture 3.5 ms  canny 0.4 ms  ransac 13.4 ms  points 2590  inliers 257
+angle diff 0.05 deg  rms ransac 0.95. rms ls 0.94  fps 29.5 pro  roc_fps 72  w 1280
+capture 3.3 ms  canny 0.4 ms  ransac 13.4 ms  points 2610  inliers 267
+angle diff 0.06 deg  rms ransac 0.96. rms ls 0.94  fps 29.5 pro  roc_fps 73  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.4 ms  points 2629  inliers 265
+angle diff 0.09 deg  rms ransac 1.21. rms ls 1.04  fps 29.6 pro  roc_fps 73  w 1280
+capture 2.7 ms  canny 0.3 ms  ransac 13.4 ms  points 2602  inliers 276
+angle diff 0.06 deg  rms ransac 0.89. rms ls 0.86  fps 29.6 pro  roc_fps 73  w 1280
+capture 2.9 ms  canny 0.3 ms  ransac 13.4 ms  points 2597  inliers 261
+angle diff 0.03 deg  rms ransac 0.99. rms ls 0.95  fps 29.6 pro  roc_fps 74  w 1280
+capture 3.2 ms  canny 0.4 ms  ransac 13.2 ms  points 2519  inliers 260
+angle diff 0.10 deg  rms ransac 1.20. rms ls 1.17  fps 29.7 pro  roc_fps 72  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.5 ms  points 2658  inliers 266
+angle diff 0.36 deg  rms ransac 1.22. rms ls 1.09  fps 29.7 pro  roc_fps 73  w 1280
+capture 2.7 ms  canny 0.3 ms  ransac 13.3 ms  points 2525  inliers 256
+angle diff 0.07 deg  rms ransac 0.59. rms ls 0.58  fps 29.7 pro  roc_fps 72  w 1280
+capture 3.1 ms  canny 0.4 ms  ransac 13.5 ms  points 2439  inliers 203
+angle diff 0.09 deg  rms ransac 1.23. rms ls 1.05  fps 29.8 pro  roc_fps 70  w 1280
+capture 2.6 ms  canny 0.5 ms  ransac 13.7 ms  points 2586  inliers 265
+angle diff 0.05 deg  rms ransac 0.95. rms ls 0.95  fps 29.8 pro  roc_fps 69  w 1280
+capture 1.9 ms  canny 0.4 ms  ransac 14.1 ms  points 2657  inliers 262
+angle diff 0.04 deg  rms ransac 1.24. rms ls 1.23  fps 29.8 pro  roc_fps 71  w 1280
+capture 2.0 ms  canny 0.3 ms  ransac 13.8 ms  points 2601  inliers 278
+angle diff 0.05 deg  rms ransac 1.18. rms ls 1.18  fps 29.8 pro  roc_fps 72  w 1280
+capture 2.2 ms  canny 0.3 ms  ransac 13.6 ms  points 2607  inliers 267
+angle diff 0.14 deg  rms ransac 1.06. rms ls 1.04  fps 29.8 pro  roc_fps 72  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.5 ms  points 2606  inliers 271
+angle diff 0.16 deg  rms ransac 1.00. rms ls 0.96  fps 29.9 pro  roc_fps 72  w 1280
+capture 3.3 ms  canny 0.5 ms  ransac 13.3 ms  points 2594  inliers 256
+angle diff 0.02 deg  rms ransac 1.23. rms ls 1.22  fps 29.9 pro  roc_fps 73  w 1280
+capture 3.3 ms  canny 0.4 ms  ransac 13.4 ms  points 2624  inliers 263
+angle diff 0.14 deg  rms ransac 0.95. rms ls 0.92  fps 29.9 pro  roc_fps 72  w 1280
+capture 3.6 ms  canny 0.4 ms  ransac 13.5 ms  points 2646  inliers 331
+angle diff 0.06 deg  rms ransac 1.20. rms ls 1.16  fps 29.9 pro  roc_fps 72  w 1280
+capture 3.4 ms  canny 0.3 ms  ransac 13.6 ms  points 2670  inliers 272
+angle diff 0.00 deg  rms ransac 0.89. rms ls 0.88  fps 29.9 pro  roc_fps 72  w 1280
+capture 3.4 ms  canny 0.3 ms  ransac 13.6 ms  points 2627  inliers 324
+angle diff 0.18 deg  rms ransac 1.20. rms ls 1.15  fps 29.9 pro  roc_fps 73  w 1280
+capture 2.8 ms  canny 0.3 ms  ransac 13.5 ms  points 2623  inliers 286
+angle diff 0.04 deg  rms ransac 0.89. rms ls 0.88  fps 29.9 pro  roc_fps 73  w 1280
+capture 2.8 ms  canny 0.4 ms  ransac 13.4 ms  points 2604  inliers 261
+angle diff 0.03 deg  rms ransac 0.91. rms ls 0.87  fps 30.0 pro  roc_fps 73  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.4 ms  points 2581  inliers 256
+angle diff 0.13 deg  rms ransac 1.15. rms ls 1.12  fps 30.0 pro  roc_fps 72  w 1280
+capture 2.8 ms  canny 0.3 ms  ransac 13.6 ms  points 2657  inliers 283
+angle diff 0.17 deg  rms ransac 1.07. rms ls 1.04  fps 30.0 pro  roc_fps 72  w 1280
+capture 2.9 ms  canny 0.3 ms  ransac 13.5 ms  points 2697  inliers 277
+angle diff 0.07 deg  rms ransac 1.22. rms ls 1.07  fps 30.0 pro  roc_fps 72  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.5 ms  points 2696  inliers 259
+angle diff 0.22 deg  rms ransac 1.05. rms ls 1.00  fps 30.0 pro  roc_fps 74  w 1280
+capture 3.0 ms  canny 0.3 ms  ransac 13.2 ms  points 2485  inliers 264
+angle diff 0.02 deg  rms ransac 0.97. rms ls 0.95  fps 30.0 pro  roc_fps 74  w 1280
+capture 3.8 ms  canny 0.3 ms  ransac 13.2 ms  points 2465  inliers 256
+angle diff 0.00 deg  rms ransac 0.97. rms ls 0.97  fps 30.0 pro  roc_fps 72  w 1280
+capture 3.7 ms  canny 0.3 ms  ransac 13.6 ms  points 2695  inliers 345
+angle diff 0.14 deg  rms ransac 0.86. rms ls 0.80  fps 30.0 pro  roc_fps 75  w 1280
+capture 3.1 ms  canny 0.3 ms  ransac 13.1 ms  points 2497  inliers 300
+angle diff 0.09 deg  rms ransac 0.80. rms ls 0.77  fps 30.0 pro  roc_fps 73  w 1280
