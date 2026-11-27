@@ -71,7 +71,11 @@ A laptop sleeve stood in for the sheet of paper, with me and the room as backgro
 
 The detector always picks the edge with the most inliers, which is the longest edge with enough contrast to survive Canny. Every frame is solved independently, so it switches as soon as another edge has more support and flickers when two have about the same.
 
-In the room it finds any long, high-contrast straight edge: the dark curtain against the white wall (`results/15_room_curtain_edge.png`), the shelves against the wall and very consistently the mirror edge on the wardrobe door (`results/14_room_mirror_edge.png`). Lower-contrast edges like the wardrobe sides in dim light lose out.
+In the room it finds any long, high-contrast straight edge: the dark curtain against the white wall, the shelves against the wall and very consistently the mirror edge on the wardrobe door. Lower-contrast edges like the wardrobe sides in dim light lose out.
+
+![Curtain edge](results/15_room_curtain_edge.png)
+
+![Mirror edge](results/14_room_mirror_edge.png)
 
 ## Failure case
 
